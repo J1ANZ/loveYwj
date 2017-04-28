@@ -15,6 +15,24 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/garden.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/tctip-1.0.2.min.js"></script>
+<script>
+ new tctip({
+    top: '20%',
+    button: {
+      id: 9,
+      type: 'dashang',
+    },
+    list: [
+      {
+        type: 'alipay',
+        qrImg: './images/alipay.jpg'
+      }, {
+        type: 'wechat',
+        qrImg: './images/weixin.jpg'
+      }
+    ]
+  }).init()
 
 </head>
 
